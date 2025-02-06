@@ -5,10 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website task</title>
     <style>
+    body {
+        background-color: whitesmoke;
+        height: 100%;
         
+    }
+    
+    
+
+    .sec1{
+        
+        color: white;
+         text-align: center;
+       padding-top: 20px;
+        width: 100%;
+         background-color:rgb(24, 213, 24);
+         border-radius: 8px;
+         
+         font-family:Arial;
+    }
+    .nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 20px;
+       
+    }
+    .container{
+        font-size: small;
+        font-family: Arial, sans-serif;
+        display:flex;
+    
+        flex-wrap: wrap;
+        column-gap: 405px;
+        padding:20px;
+
+
+    }
+    .container div{
+      
+        background-color:white;
+        border-radius:8px;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), -1px -1px 2px rgba(0, 0, 0, 0.1);
+        width: 420px;
+        margin:10px;
+        padding:10px;
+    
+       
+    }
+    div h2{
+        color:rgb(24, 213, 24);
+    }
+    footer{
+        align-content: center;
+        
+        
+        text-align: center;
+        color:white;
+        height:50px;
+        background-color: rgb(47, 47, 47);
+    }
+    footer span{
+        color: rgb(24,213,24);
+    }
+   
     </style>
 </head>
 <body>
-    
+ 
+    <section class="sec1">
+    <h1 >Welcome to Your Website Task</h1>
+    <div  class="nav">
+        <p > Home</p>
+        <p>About</p>
+        <p>Contact</p>
+    </div>
+    </section>
+    <section class="container">
+        <div >
+            <h2>About CSS</h2>
+            <p>Cascading Style Sheets (CSS) allow you to style and layout your web
+                pages, adding colors, spacing, and more.</p>
+        </div>
+
+        <div>
+            <h2>Box Model</h2>
+            <p> The CSS box model describes the rectangular boxes generated for
+                elements. It includes margins, borders, padding, and the actual content.</p>
+        </div>
+
+        <div>
+            <h2>Responsive Design</h2>
+            <p>Responsive design ensures your webpage looks great on all devices,
+                from desktops to mobile phones.</p>
+        </div>
+        
+    </section>
+
+    <footer> 
+        <p>Created by Aditya Gupta | Follow us on  <span>Instagram</span>  |  <span>  Twitter  </span>  |   <span> LinkedIn</span>
+        </p>
+    </footer>
 </body>
+
 </html>
